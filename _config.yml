@@ -1,0 +1,10 @@
+# Site settings
+title: Miles Ditzler
+email: milestempleton@gmail.com
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://milestempleton.com" # the base hostname & protocol for your site
+# github_username: milestempleton
+
+# Build settings
+markdown: kramdown

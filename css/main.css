@@ -1,3 +1,14 @@
 body {
   font: 14px/2 Helvetica, sans-serif;
 }
+
+#container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../assets/bigdog.png) no-repeat;
+  background-size: contain;
+  background-position: 90%;
+}

@@ -100,3 +100,16 @@ a {
     left: 21%;
   }
 
+/* CONTACT */
+#dogcoin {
+  background: url(../assets/dogcoin.jpg) no-repeat;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  }
+  #email {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+

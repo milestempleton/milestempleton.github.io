@@ -18,6 +18,27 @@ a {
     color: #FF6D19; /* #ff2147;*/
   }
 
+i {
+  font-style: normal;
+}
+
+#back {
+  position: absolute;
+  left: 18px;
+  bottom: 22px;
+  line-height: 1rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #666;
+  }
+  #back span {
+    padding: 0 6px;
+  }
+  #back:hover i,
+  #back:hover span {
+    color: #FF6D19;
+  }
+
 #landing, #landing img, #landing div,
 #dog,#bone,#title,
 #contact,#sculpture,

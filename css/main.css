@@ -18,10 +18,42 @@ a {
     color: #FF6D19; /* #ff2147;*/
   }
 
+#landing, #landing img, #landing div,
 #dog,#bone,#title,
 #contact,#sculpture,
 #drawing,#book,#photo {
   position: absolute;
+  }
+  #landing {
+    /*background: url(../assets/rock.png) no-repeat;*/
+    background-color: #fff;
+    background-position: 50% 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+  }
+  #landing, #landing img, #landing div {
+    transition: all 0.6s; /* must match fadeout in script.js */
+  }
+  #landing img,
+  #landing div {
+    top: 50%;
+    left: 50%;
+    width: 414px;
+    height: 345px;
+    margin-left: -207px; /* 1/2 width */
+    margin-top: -172px; /* 1/2 height */
+    opacity: 1;
+  }
+  #landing img:hover { opacity: 0.3; }
+  #landing div {
+    font-size: 3rem;
+    color: #666;
+    text-align: center;
+    margin-top: 0;
   }
   #dog {
     background: url(../assets/bigdog.png) no-repeat;

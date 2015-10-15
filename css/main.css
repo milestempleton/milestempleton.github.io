@@ -51,6 +51,7 @@ a {
   #landing img:hover { opacity: 0.3; }
   #landing div {
     font-size: 3rem;
+    font-weight: 200;
     color: #666;
     text-align: center;
     margin-top: 0;

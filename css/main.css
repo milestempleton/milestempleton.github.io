@@ -60,21 +60,17 @@ em { font-style: italic; }
     color: #FF6D19;
   }
 
-#landing, #landing img,
-#home,
-#dog,#bone,#title,
-#contact,#sculpture,
-#drawing,#book,#photo {
+/* LANDING */
+#landing {
   position: absolute;
-  }
-  #landing {
-    background-color: #fff;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   }
   #landing img {
+    position: absolute;
     top: 50%;
     left: 50%;
     width: 414px;
@@ -84,13 +80,18 @@ em { font-style: italic; }
   }
 
 /* HOME */
-#dog {
-  background: url(../assets/bigdog.png) no-repeat;
-  background-size: contain;
-  height: 470px;
-  width: 400px;
-  top: 0;
-  right: 0;
+#dog,#bone,#title,
+#contact,#sculpture,
+#drawing,#book,#photo {
+  position: absolute;
+  }
+  #dog {
+    background: url(../assets/bigdog.png) no-repeat;
+    background-size: contain;
+    height: 470px;
+    width: 400px;
+    top: 0;
+    right: 0;
   }
   #bone {
     background: url(../assets/bone.png) no-repeat;
@@ -148,4 +149,13 @@ em { font-style: italic; }
     top: 10%;
     left: 0;
   }
+
+/* SPACE */
+#space {
+  background: url(../assets/space.jpg) no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
 

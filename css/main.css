@@ -1,6 +1,7 @@
 body {
   font: 14px/3rem "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 200;
+  letter-spacing: 1px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -15,6 +16,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
+  max-height: 700px;
   }
   .container {
     position: absolute;
@@ -38,17 +40,16 @@ h1 { font-size: 4rem; line-height: 4rem; }
 h2 { font-size: 3rem; line-height: 3rem; }
 h3 { font-size: 2rem; line-height: 2rem; }
 
-i { font-style: normal; }
 em { font-style: italic; }
 .uppercase { text-transform: uppercase; }
 
 #back {
   position: absolute;
-  left: 18px;
-  bottom: 22px;
+  left: 0;
+  bottom: 0;
   line-height: 1rem;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: #666;
   }
   #back span {
@@ -130,12 +131,13 @@ em { font-style: italic; }
 #dogcoin {
   background: url(../assets/dogcoin.jpg) no-repeat;
   position: absolute;
-  right: 10%;
-  bottom: 10%;
+  right: 0;
+  bottom: 0;
+  height: 52%;
   }
   #email {
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 0;
   }
 

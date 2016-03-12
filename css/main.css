@@ -1,5 +1,6 @@
 body {
-  font: 14px/3rem Helvetica, sans-serif;
+  font: 14px/3rem "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -9,8 +10,15 @@ body {
   overflow: hidden;
 }
 
+.limiter {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
 a {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   text-decoration: none;
   color: #222;
   }
@@ -18,9 +26,12 @@ a {
     color: #FF6D19; /* #ff2147;*/
   }
 
-i {
-  font-style: normal;
-}
+h1 { font-size: 4rem; line-height: 4rem; }
+h2 { font-size: 3rem; line-height: 3rem; }
+h3 { font-size: 2rem; line-height: 2rem; }
+
+i { font-style: normal; }
+em { font-style: italic; }
 
 #back {
   position: absolute;
@@ -86,7 +97,6 @@ i {
     left: 12%;
   }
   #title {
-    font-size: 3rem;
     top: 12%;
     left: 12%;
   }

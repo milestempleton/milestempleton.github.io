@@ -87,8 +87,8 @@ em { font-style: italic; }
 #dog {
   background: url(../assets/bigdog.png) no-repeat;
   background-size: contain;
-  height: 95%;
-  width: 40%;
+  height: 470px;
+  width: 400px;
   top: 0;
   right: 0;
   }

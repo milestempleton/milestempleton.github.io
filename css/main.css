@@ -153,6 +153,7 @@ em { font-style: italic; }
 /* SPACE */
 #space {
   background: url(../assets/space.jpg) no-repeat;
+  background-size: cover;
   position: absolute;
   top: 0;
   bottom: 0;

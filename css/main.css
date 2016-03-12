@@ -39,7 +39,7 @@ i {
     color: #FF6D19;
   }
 
-#landing, #landing img, #landing div,
+#landing, #landing img,
 #home,
 #dog,#bone,#title,
 #contact,#sculpture,
@@ -47,24 +47,13 @@ i {
   position: absolute;
   }
   #landing {
-    /*background: url(../assets/rock.png) no-repeat;*/
     background-color: #fff;
-    background-position: 50% 50%;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 1;
-    cursor: pointer;
   }
-  #landing.hidden {
-    cursor: default;
-    opacity: 0;
-  }
-  #landing, #landing img, #landing span {
-    transition: all 0.6s; /* must match fadeout in script.js */
-  }
-  #landing div {
+  #landing img {
     top: 50%;
     left: 50%;
     width: 414px;
@@ -72,19 +61,6 @@ i {
     margin-left: -207px; /* 1/2 width */
     margin-top: -172px; /* 1/2 height */
   }
-  #landing img { opacity: 1; }
-  #landing span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3rem;
-    font-weight: 200;
-    color: #666;
-    opacity: 0;
-  }
-  #landing div:hover img { opacity: 0.3; }
-  #landing div:hover span { opacity: 1; }
   #home {
     top: 0;
     bottom: 0;

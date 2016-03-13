@@ -4,15 +4,15 @@ permalink: /photo/
 
 photos:
   - name: SET 1
-    url: assets/fotog1.jpg
+    url: /assets/fotog1.jpg
   - name: SET 2
-    url: assets/fotog2.jpg
+    url: /assets/fotog2.jpg
   - name: SET 3
-    url: assets/fotog3.jpg
+    url: /assets/fotog3.jpg
   - name: SET 4
-    url: assets/fotog4.jpg
+    url: /assets/fotog4.jpg
   - name: SET 5
-    url: assets/fotog5.jpg
+    url: /assets/fotog5.jpg
 ---
 <div class="limiter">
   <div class="container row">
@@ -20,13 +20,13 @@ photos:
       <h3>Photo</h3>
       <ul>
         {% for photo in page.photos %}
-          <li><a href="#" data-path="{{photo.url}}" class="{% if forloop.index == 1 %}active{% endif %}">{{photo.name}}</a></li>
+          <li><a href="#" data-url="{{photo.url}}" data-name="{{photo.name}}" class="{% if forloop.index == 1 %}active{% endif %}">{{photo.name}}</a></li>
         {% endfor %}
       </ul>
 
     </div>
     <div id="photos" class="small-9 columns">
-      <img src="{{site.baseurl}}/{{page.photos[0].url}}" alt="{{page.photos[0].name}}">
+      <img src="{{page.photos[0].url}}" alt="{{page.photos[0].name}}" title="{{page.photos[0].name}}">
       <!-- <div data-imageurl="{{site.baseurl}}/assets/fotog1.jpg" alt="photo"> -->
     </div>
     <div id="paginate"></div>

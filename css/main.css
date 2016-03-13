@@ -32,13 +32,21 @@ a {
   text-decoration: none;
   color: #222;
   }
-  a:hover {
+  a:hover,
+  a.active {
     color: #FF6D19; /* #ff2147;*/
+  }
+  a:active {
+    color: #222;
   }
 
 h1 { font-size: 4rem; line-height: 4rem; }
 h2 { font-size: 3rem; line-height: 3rem; }
-h3 { font-size: 2rem; line-height: 2rem; }
+h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
 
 em { font-style: italic; }
 .uppercase { text-transform: uppercase; }
@@ -51,6 +59,9 @@ em { font-style: italic; }
   cursor: pointer;
   font-size: 1.2rem;
   color: #666;
+  }
+  #back.static {
+    position: static;
   }
   #back span {
     padding: 0 6px;
@@ -148,6 +159,24 @@ em { font-style: italic; }
     position: absolute;
     top: 10%;
     left: 0;
+  }
+
+/* PHOTO */
+#sidebar {
+  }
+  #sidebar li {
+    line-height: 2rem;
+  }
+  #photos {
+    position: relative;
+  }
+  #photos img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    max-height: 400px;
+  }
+  #paginate {
   }
 
 /* SPACE */

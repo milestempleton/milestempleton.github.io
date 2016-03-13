@@ -1,7 +1,7 @@
 {
-  "name": "miles-portfolio",
+  "name": "miles-templeton",
   "version": "1.0.0",
-  "description": "",
+  "description": "```bash jekyll serve -w ```",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "foundation-grid": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milestempleton/milestempleton.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milestempleton/milestempleton.github.io/issues"
+  },
+  "homepage": "https://github.com/milestempleton/milestempleton.github.io#readme"
 }

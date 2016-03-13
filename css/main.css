@@ -1,6 +1,6 @@
 body {
   font: 14px/3rem "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1px;
   position: absolute;
   top: 0;
@@ -16,7 +16,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   height: 100%;
-  max-height: 550px;
+  max-height: 650px;
   }
   .container {
     position: absolute;
@@ -49,6 +49,7 @@ h3 {
 }
 
 em { font-style: italic; }
+strong { font-weight: bold; }
 .uppercase { text-transform: uppercase; }
 
 #back {
@@ -108,9 +109,9 @@ em { font-style: italic; }
     background: url(../assets/bone.png) no-repeat;
     background-size: contain;
     width: 30%;
-    height: 38%;
+    height: 30%;
     bottom: 0;
-    left: 8%;
+    left: 10%;
   }
   #drool {
     position: absolute;
@@ -135,7 +136,7 @@ em { font-style: italic; }
     left: 0;
   }
   #drawing {
-    top: 49%;
+    top: 54%;
     left: 28%;
   }
   #book {
